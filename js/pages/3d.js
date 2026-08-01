@@ -1,1 +1,1 @@
-document.getElementById("drawCanvas")
+document.getElementById("drawCanvas");
