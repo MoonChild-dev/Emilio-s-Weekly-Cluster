@@ -19,7 +19,7 @@ content;
 
     this.innerHTML=`
     <div class="msgboxcard">
-    <div class="msgboxcardTitle"><div>${this.getAttribute("title")} <img src='${this.getAttribute("imgsrc")??""}'></div> <img class="pix" src="./assets/images/icons/close.png"></div>
+    <div class="msgboxcardTitle"><div>${this.getAttribute("title")} <img src='${this.getAttribute("imgsrc")??""}'></div> <img class="pix" src="/assets/images/icons/close.png"></div>
     <div class="msgboxcardBody">${this.content}</div>
     </div>
     `;

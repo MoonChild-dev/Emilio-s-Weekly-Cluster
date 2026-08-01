@@ -10,7 +10,7 @@ constructor(){
     
     
     async init() {
-        let routesReq= await fetch('./pages.json');
+        let routesReq= await fetch('/pages.json');
         this.routes = await routesReq.json();
         
         this.page=this.page= this.getParamValue("page");
