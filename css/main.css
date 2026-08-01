@@ -1,0 +1,55 @@
+@import url('./fonts.css');
+@import url('./crt.css');
+@import url('./msgbox.css');
+
+
+html{
+    background-color: black;
+    color: white;
+    font-size: 3rem;
+
+    font-family: content;
+}
+html i{
+    font-family: content-i;
+}
+html b{
+    font-family: content-b;
+}
+html h1,html h2,html h3, html h4, html h5, html h6{
+    font-family: head;
+    font-size: 1rem;
+}
+html, body {
+    margin: 0;
+    min-height: 100%;
+}
+
+body {
+    cursor: url("../assets/images/icons/cursor.png"), auto;
+}
+a{
+    color: white;
+    display: inline-block;
+    transition: transform 2ms;
+}
+a:hover{
+    color: blue;
+    transform: scale(1.1);
+}
+a:active{
+    color: gray;
+    transform: scale(0.9);
+}
+
+#pageContainer {
+    min-height: 100vh;
+    padding: 2%;
+    box-sizing: border-box;
+    background-color: black;
+    
+}
+.pix{
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+}

@@ -1,0 +1,19 @@
+.msgboxcard {
+    width: min(500px, 90%);
+    min-height: 180px;
+
+    display: flex;
+    flex-direction: column;
+    background: white;
+    aspect-ratio: 1/1.3;
+}
+.msgboxcardTitle{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+}
+.msgboxcardBody{
+    
+    color: black;
+    padding: 3% 0% 0% 6%;
+}

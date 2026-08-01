@@ -1,0 +1,18 @@
+@font-face {
+    font-family: head;
+    src: url('../assets/fonts/web/BVCR.ttf');
+
+}
+@font-face {
+    font-family: content;
+    src: url('../assets//fonts/web/EC.ttf');
+    
+}
+@font-face {
+    font-family: content-b;
+    src: url('../assets//fonts/web/EC-B.ttf');
+}
+@font-face {
+    font-family: content-i;
+    src: url('../assets//fonts/web/EC-I.ttf');
+}
